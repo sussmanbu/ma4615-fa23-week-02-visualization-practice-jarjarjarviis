@@ -1,7 +1,7 @@
 ---
 title: "Week 02: COVID Visualization Activity"
 date: "September, 11 2023"
-author: "**`[[`**Your Name**`]]`**"
+author: "Tian Xie"
 ---
 
 Today, we'll be working with a data set related to COVID.
@@ -36,6 +36,15 @@ covid_data_count |>
 ```
 
 1. Write code for a plot and describe what you observe?
+```{r}
+covid_data_count |>
+  ggplot(aes(x=state, y = Deaths, color = race)) +geom_line()+theme(axis.text.x = element_text(angle = 65, hjust = 1))
+
+```
+
 2. Are there any conclusions you can draw?
+Arizona has the most death counts
 3. What were you not able to do due to not having the R knowledge?
+I wouldnt know the specific data group in visual
 4. What other data would be useful to better understand this data?
+I think the vaccine rate is also pretty important
