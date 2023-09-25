@@ -43,7 +43,7 @@ covid_data_count |>
 ```
 
 2. Are there any conclusions you can draw?
-Arizona has the most death counts
+Arizona has the most death counts.
 3. What were you not able to do due to not having the R knowledge?
 I wouldnt know the specific data group in visual
 4. What other data would be useful to better understand this data?
